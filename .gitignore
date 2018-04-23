@@ -15,7 +15,6 @@
 !Makefile
 !readme
 nbproject/
-*.txt
 *.out
 *.o
 .project
