@@ -576,6 +576,7 @@ struct state_array
 		del(index);
 	}
 };
+
 struct ForwardPktBuffer
 {
 	ForwardPkt* pktQueue;

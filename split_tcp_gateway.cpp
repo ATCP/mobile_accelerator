@@ -868,7 +868,6 @@ struct TCB
                 last_snd_wnd = 0;
                 snd_wnd_count = 0;
                 round_start = 0;
-                probe_state = 1;
                 
 		for (int i = 0; i < MAX_CONN_STATES + 1; i ++)
 		{
@@ -948,7 +947,6 @@ struct TCB
             last_snd_wnd = 0;
             snd_wnd_count = 0;
             round_start = 0;
-            probe_state = 1;
                             
             sample_rate = pkts_transit = 0;
             
